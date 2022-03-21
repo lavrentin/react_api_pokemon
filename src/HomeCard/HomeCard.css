@@ -1,0 +1,78 @@
+.HomeCard {
+  display: flex;
+  width: 50vh;
+  height: 65vh;
+  background-color: #a2d3cad6;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 15px;
+  box-shadow: 7px 7px #8080806e;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.cardBlok {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spanName {
+  font-family: cursive;
+  font-style: italic;
+}
+.titleName {
+  font-size: 25px;
+  font-family: system-ui;
+  font-style: italic;
+}
+.cardImg {
+  display: flex;
+  width: 25%;
+  height: 25vh;
+  background-position: right;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.position1 {
+  background-image: url(../../public/Ash_Ketchum_Seasons_1-5.png);
+}
+.position2 {
+  background-image: url(../../public/Misty_Seasons_1-5.png);
+}
+.position3 {
+  background-image: url(../../public/Brock_Seasons_1-5.png);
+}
+@media screen and (max-width: 405px) {
+  .HomeCard {
+    width: 45vh;
+    height: 60vh;
+  }
+}
+@media screen and (max-width: 325px) {
+  .HomeCard {
+    width: 45vh;
+    height: 60vh;
+  }
+  .spanName {
+    font-size: 15px;
+  }
+  .titleName {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 310px) {
+  .HomeCard {
+    width: 40vh;
+    height: 55vh;
+  }
+  .spanName {
+    font-size: 12px;
+  }
+  .titleName {
+    font-size: 18px;
+  }
+}

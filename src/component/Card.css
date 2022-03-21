@@ -1,0 +1,46 @@
+.Card {
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  height: 360px;
+  border: solid 2px grey;
+  border-radius: 15px;
+  margin: 9px;
+  box-shadow: 7px 7px #7a7878;
+  background-color: white;
+}
+
+.imgStyle {
+  width: 270px;
+  height: 290px;
+  border-radius: 15px;
+}
+.CardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #009688;
+}
+.searchStyle {
+  background-color: #009688;
+}
+.inputSearch {
+  width: 20vh;
+  height: 5vh;
+  border-radius: 15px;
+  border: none;
+}
+.HomePage {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-image: url(../../public/17-179226_cute-pokemon-hd-wallpaper-pokemon-wallpaper-hd-ipad.jpg);
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+}
+.titleName {
+  text-decoration: none;
+  margin: 0;
+}
